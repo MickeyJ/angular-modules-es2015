@@ -2,11 +2,10 @@
 export default function($http){
   const vm = this;
 
-  vm.msg = 'List of people and their passwords';
+  vm.msg = 'List of other people and their passwords';
 
-  $http.get('http://localhost:3000/test').then(function(res){
+  $http.get('http://localhost:3000/user-list').then((res) =>{
     vm.userData = res.data;
-    console.log(
-    );
+
   });
 }

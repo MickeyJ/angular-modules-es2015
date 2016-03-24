@@ -2,11 +2,11 @@
 export default function(){
   const vm = this;
 
-  vm.msg = `Login or something...`;
+  vm.msg = `Give me your password...`;
   vm.userData = {};
 
-  vm.newUser = function(email, pass){
-    vm.userData.email = email;
-    vm.userData.pass = pass
+  vm.handleLoginMsg = (name) =>{
+    vm.loginMessage =  `Thanks ${name}!`;
+    console.log(vm.user);
   };
 }

@@ -1,32 +1,32 @@
-# Angular Modules in ES2015
+# Angular - ES2015 Modules
 
 
-install errthang
->
 ```bash
 $ npm install
 ```
-
-if you don't have webpack or nodemon installed globally...
->
+######If you don't have Webpack or Nodemon installed globally:
 ```bash
 $ npm install -g webpack nodemon
 ```
-
-run for development with webpack-dev-server @ [ localhost:8080 ]
->
+######Run for development 
+using webpack-dev-server @ [ localhost:8080 ](http://localhost:8080/)
+*... this will watch your ES2015 code and auto-transpile on save*
 ```bash 
 $ npm run dev
 ```
- - you will need to start Express for serving mock data
- - OPEN NEW TERMINAL WINDOW and...
+  
+######And start Express in new terminal
+...for serving mock data. 
 >
 ```
-$ npm start
+$ npm start 
 ```
-
-in production run this and view @ [ localhost:3000 ]
->
+  
+#####The written code is in Dev directory
+  
+######Build for production @ [ localhost:3000 ]
 ```bash
 $ npm run build
 ```
+__Now everything to run the app will be in the public folder__
+*... you can either host statically or push to Heroku / whatever*

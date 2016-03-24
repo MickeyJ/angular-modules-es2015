@@ -1,9 +1,8 @@
-import angular   from 'angular';
-import 'angular-route'
+import angular      from 'angular';
+import listModule   from './list-module'
 import loginModule  from './login-module'
-import listModule from './list-module'
 
-const ngModule = angular.module('app', ['ngRoute']);
+const ngModule = angular.module('app', []);
 
-loginModule(ngModule);
 listModule(ngModule);
+loginModule(ngModule);

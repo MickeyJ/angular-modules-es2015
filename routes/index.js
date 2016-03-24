@@ -1,6 +1,7 @@
 var express = require('express');
+var fs = require('fs');
 var router = express.Router();
-var mockData = require('../libs/mockdata');
+var MOCK_DATA = require('../libs/MOCK_DATA');
 
 router.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -8,8 +9,8 @@ router.use(function(req, res, next) {
   next();
 });
 
-router.get('/test', (req,res,next) =>{
-  res.json(mockData);
+router.get('/user-list', (req,res,next) =>{
+  res.json(MOCK_DATA);
 });
 
 router.get('*', (req, res, next) =>{
