@@ -1,0 +1,9 @@
+.input-msg{
+  h2{
+    color: DeepSkyBlue;
+    cursor: pointer;
+    &:hover{
+      color: green
+    }
+  }
+}

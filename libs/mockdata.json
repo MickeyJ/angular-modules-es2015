@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Bob",
+    "email": "bob@mail",
+    "pass": "blob12"
+  },
+  {
+    "name": "Suzy",
+    "email": "suzy@mail",
+    "pass": "SooZee"
+  },
+  {
+    "name": "Joe",
+    "email": "joe@mail",
+    "pass": "imJoe99"
+  },
+  {
+    "name": "Gwen",
+    "email": "gwen@mail",
+    "pass": "gwendo123"
+  },
+  {
+    "name": "Bill",
+    "email": "bill@mail",
+    "pass": "b!llyB0B"
+  },
+  {
+    "name": "Jerry",
+    "email": "jerry.com",
+    "pass": "imjerry123456"
+  },
+  {
+    "name": "Katie",
+    "email": "kate@mail",
+    "pass": "mypa$$wurd"
+  },
+  {
+    "name": "Valerie",
+    "email": "ValGal@mail",
+    "pass": "valeria555"
+  }
+]

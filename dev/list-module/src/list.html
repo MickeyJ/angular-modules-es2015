@@ -1,0 +1,23 @@
+<div class="list-msg">
+  <h2>{{vm.msg}}</h2>
+</div>
+
+<div class="col-sm-12">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="p in vm.userData">
+        <td >{{p.name}}</td >
+        <td >{{p.email}}</td >
+        <td >{{p.pass}}</td >
+      </tr >
+    </tbody>
+  </table>
+</div>
+

@@ -1,0 +1,10 @@
+.list-msg{
+
+  h2{
+    color: red;
+    cursor: pointer;
+    &:hover{
+      color: blue
+    }
+  }
+}
