@@ -15,7 +15,7 @@ router.get('/user-list', (req,res,next) =>{
 
 router.get('*', (req, res, next) =>{
   res.render('index.html', {
-    root: __dirname + '/../dist/'
+    root: __dirname + '/../public/'
   });
 });
 
