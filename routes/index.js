@@ -9,7 +9,7 @@ router.use(function(req, res, next) {
   next();
 });
 
-router.get('/user-list', (req,res,next) =>{
+router.get('/user-list', (req,res) =>{
   res.json(MOCK_DATA);
 });
 

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./bin/www",
-    "dev": "node node_modules/.bin/webpack-dev-server --content-base dev",
-    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp dev/index.html public/index.html && nodemon ./bin/www"
+    "dev": "webpack-dev-server --content-base dev",
+    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp dev/{index.html,bootstrap.min.css} public/ && nodemon ./bin/www"
   },
   "keywords": [],
   "author": "Mickey",

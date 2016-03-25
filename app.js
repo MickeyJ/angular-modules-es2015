@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname,'/public')));
 app.use('/', routes);
 
-app.use((err, req, res, next) =>{
+app.use( function(err, req, res, next){
   res.status(err.status || 500);
   res.render('error', {
     message: err.message,
